@@ -45,7 +45,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/pinFile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -65,7 +65,7 @@
         app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextMessage"
         app:layout_constraintEnd_toStartOf="@+id/sendMessage"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/pinFile"
         app:layout_constraintTop_toTopOf="@+id/editTextMessage" />
 
     <EditText
@@ -81,7 +81,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/sendMessage"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/pinFile"
         app:layout_constraintTop_toTopOf="@+id/sendMessage" />
 
     <ImageView
